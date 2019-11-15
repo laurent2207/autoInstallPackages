@@ -3,7 +3,7 @@ Function to check whether you have the needed packages installed, if not then th
 
 ### Explaination of the function's code
 The function uses a character vector. This vector will contain the names of the packages which will be used throughout the script. 
-The function will start with checking if the packages are installed or not by using the require() function. This function will give FALSE in return if the package is not installen.
+The function will start with checking if the packages are installed or not by using the require() function. This function will give FALSE in return if the package is not installed.
 ```
 using <- function(...) {
   libs <- unlist(list(...))
