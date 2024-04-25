@@ -1,5 +1,6 @@
 # autoInstallPackages
 Function to check whether you have the needed packages installed, if not then the function will install them.
+**NOTE:** This function will only work with packages available via CRAN!
 
 ### Explaination of the function's code
 The function uses a character vector. This vector will contain the names of the packages which will be used throughout the script. 
@@ -40,4 +41,3 @@ If the user will choose YES, then the function will use the install.packages() f
   }
 }
 ```
-**NOTE:** This function will only work with packages available via CRAN!
